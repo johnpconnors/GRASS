@@ -28,7 +28,7 @@ e-w resol:  1
 n-s resol:  1
 top:        1
 bottom:     0
- cols3:      1
+cols3:      1
 rows3:      1
 depths:     1
 e-w resol3: 1
@@ -50,7 +50,7 @@ MAPSET: $THE_MAPSET
 " > ${GRASS_DBASE_EXAMPLE}/$THE_GRASSRC
 
 # $GISBASE points to the GRASS installation to be used:
- export GISBASE=/usr/lib/grass64
+ export GISBASE=/packages/grass-6.4.0
  
 # Extend $PATH for the default GRASS scripts:
  export PATH=$PATH:$GISBASE/bin:$GISBASE/scripts
